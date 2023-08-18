@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato Clone</title>
+    <link rel="stylesheet" href="project2.css" />
+    <script src="https://kit.fontawesome.com/a20fe8da99.js" crossorigin="anonymous"></script>
+    <script src="./project2.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Jost:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="header">
+
+    <div class="navbar">
+
+      <div class="inside-navbar">
+
+        <p id="gtp">Get the App</p>
+
+        <div class="navbar-right">
+
+          <p class="nav-items">Investor Relations</p>
+          <p class="nav-items">Add restaurant</p>
+          <p class="nav-items">Log in</p>
+          <p class="nav-items">Sign up</p>
+
+        </div>
+
+      </div>
+
+      <div class="contant-wrapper">
+
+        <img src="../images/zomato.webp" id="zomato-img">
+
+        <h1 id="heading-1">Discover the best food and drinks in Surat</h1>
+
+        <div class="zomato-search-bar">
+
+          <div class="inside-zomato-search-bar">
+
+            <div id="zomato-search-bar-left">
+
+              <i class="fa-solid fa-location-dot" id="location-icon"></i>
+              <input placeholder="Surat" id="search-input">
+              <i class="fa-solid fa-caret-down" id="caret-icon"></i>
+
+            </div>
+
+            <div class="line-zomato"></div>
+
+            <div id="zomato-search-bar-right">
+
+              <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+            
+              <input placeholder="Search for restaurant, cuisine or a dish" id="search-input-2">
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="state-container">
+
+    <div class="cards-container">
+
+      <div class="inside-cards-container">
+
+        <div class="cards-1">
+
+          <a href="product-listing-page.html" class="inside-cards">
+
+            <div class="card-image">
+              <img src="../images/card-1.webp" id="card-1-img">
+            </div>
+
+            <div class="card-1-txt">
+              <p id="card-1-txt-1">Order Online</p>
+              <p id="card-1-txt-2">Stay Home and Order to your doorstrp</p>
+            </div>
+
+          </a>
+
+        </div>
+
+        <div class="cards-2">
+
+          <a href="product-listing-page.html" class="inside-cards-2">
+
+            <div class="card-image-2">
+              <img src="../images/card-2.webp" id="card-2-img">
+            </div>
+
+            <div class="card-2-txt">
+              <p id="card-2-txt-1">Dining</p>
+              <p id="card-2-txt-2">View the city's favourite dining venues</p>
+            </div>
+
+          </a>
+
+        </div>
+
+        <div class="cards-3">
+
+          <a href="product-listing-page.html" class="inside-cards-3">
+
+            <div class="card-image-3">
+              <img src="../images/card-3.webp" id="card-3-img">
+            </div>
+
+            <div class="card-3-txt">
+              <p id="card-3-txt-1">Nightlife and Clubs</p>
+              <p id="card-3-txt-2">Explore the city's top nightlife outlets</p>
+            </div>
+
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="collection-container">
+
+      <div class="collection-heading">
+
+        <h2 id="txt-collections">Collections</h2>
+
+        <div class="collection-sub-heading">
+
+          <h6 id="txt-collection-sub">Explore curated lists of top restaurants, cafes, pubs, and bars in Surat, based on trends</h6>
+
+          <span id="txt-collection-sub-2">All Collection in Surat
+            <i class="fa-solid fa-caret-right" id="caret-right"></i>
+          </span>
+
+        </div>
+
+      </div>
+
+      <div class="collection-cards-container">
+
+        <div class="collection-cards">
+
+          <section class="collection-cards-section">
+
+            <a class="collection-cards-link">
+
+              <div class="inside-collection-cards">
+
+                <img src="../images/collection-5.jpg" loading="lazy" id="collection-cards-img"> 
+
+              </div>
+
+              <section class="collection-cards-bt">
+
+                <section class="inside-collection-cards-bt">
+
+                  <p id="collection-cards-txt1">8 Premium Coffee Shops</p>
+
+                  <div class="collection-cards-bt-txt">
+
+                    <h6 id="collection-cards-txt2">8 Places</h6>
+                    <i class="fa-solid fa-caret-right" id="caret-right-2"></i> 
+
+                  </div>
+                </section>
+              </section>
+            </a>
+          </section>
+        </div>
+
+        <div class="collection-cards">
+
+          <section class="collection-cards-section">
+
+            <a class="collection-cards-link">
+
+              <div class="inside-collection-cards">
+
+                <img src="../images/collection-7.jpg" loading="lazy" id="collection-cards-img"> 
+
+              </div>
+
+              <section class="collection-cards-bt">
+
+                <section class="inside-collection-cards-bt">
+
+                  <p id="collection-cards-txt1">9 Local Favourite Places</p>
+
+                  <div class="collection-cards-bt-txt">
+
+                    <h6 id="collection-cards-txt2">8 Places</h6>
+                    <i class="fa-solid fa-caret-right" id="caret-right-2"></i> 
+
+                  </div>
+                </section>
+              </section>
+            </a>
+          </section>
+        </div>
+
+        <div class="collection-cards">
+
+          <section class="collection-cards-section">
+
+            <a class="collection-cards-link">
+
+              <div class="inside-collection-cards">
+
+                <img src="../images/collection-6.jpeg" loading="lazy" id="collection-cards-img"> 
+
+              </div>
+
+              <section class="collection-cards-bt">
+
+                <section class="inside-collection-cards-bt">
+
+                  <p id="collection-cards-txt1">6 Luxury Dining Places</p>
+
+                  <div class="collection-cards-bt-txt">
+
+                    <h6 id="collection-cards-txt2">5 Places</h6>
+                    <i class="fa-solid fa-caret-right" id="caret-right-2"></i> 
+
+                  </div>
+                </section>
+              </section>
+            </a>
+          </section>
+        </div>
+
+        <div class="collection-cards">
+
+          <section class="collection-cards-section">
+
+            <a class="collection-cards-link">
+
+              <div class="inside-collection-cards">
+
+                <img src="../images/collection-8.jpeg" loading="lazy" id="collection-cards-img"> 
+
+              </div>
+
+              <section class="collection-cards-bt">
+
+                <section class="inside-collection-cards-bt">
+
+                  <p id="collection-cards-txt1">11 Great Cafes</p>
+
+                  <div class="collection-cards-bt-txt">
+
+                    <h6 id="collection-cards-txt2">17 Places</h6>
+                    <i class="fa-solid fa-caret-right" id="caret-right-2"></i> 
+
+                  </div>
+                </section>
+              </section>
+            </a>
+          </section>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="location-container">
+
+      <div class="location-title">
+
+        <p id="location-heading">Popular localities in and around</p>
+        <span id="city-name">Surat</span>
+
+      </div>
+
+      <div class="location-cards">
+
+        <div class="inside-location-cards">
+
+          <a href="#" class="location-cards-link">
+
+            <div class="location-card-panel">
+
+              <div class="location-cards-tittle">
+
+                <h5 id="location-cards-txt1">Vesu</h5>
+                <p id="location-cards-txt2">397 Places</p>
+
+              </div>
+
+              <i class="fa-solid fa-chevron-right" id="link-icon"></i>
+
+            </div>
+
+          </a>
+
+        </div>
+
+        <div class="inside-location-cards">
+
+          <a href="#" class="location-cards-link">
+
+            <div class="location-card-panel">
+
+              <div class="location-cards-tittle">
+
+                <h5 id="location-cards-txt1">Piplod</h5>
+                <p id="location-cards-txt2">151 Places</p>
+
+              </div>
+
+              <i class="fa-solid fa-chevron-right" id="link-icon"></i>
+
+            </div>
+
+          </a>
+
+        </div>
+
+        <div class="inside-location-cards">
+
+          <a href="#" class="location-cards-link">
+
+            <div class="location-card-panel">
+
+              <div class="location-cards-tittle">
+
+                <h5 id="location-cards-txt1">Adajan Gam</h5>
+                <p id="location-cards-txt2">300 Places</p>
+
+              </div>
+
+              <i class="fa-solid fa-chevron-right" id="link-icon"></i>
+
+            </div>
+
+          </a>
+
+        </div>
+
+        <div class="inside-location-cards">
+
+          <a href="#" class="location-cards-link">
+
+            <div class="location-card-panel">
+
+              <div class="location-cards-tittle">
+
+                <h5 id="location-cards-txt1">City Light</h5>
+                <p id="location-cards-txt2">101 Places</p>
+
+              </div>
+
+              <i class="fa-solid fa-chevron-right" id="link-icon"></i>
+
+            </div>
+
+          </a>
+
+        </div>
+
+        <div class="inside-location-cards">
+
+          <a href="#" class="location-cards-link">
+
+            <div class="location-card-panel">
+
+              <div class="location-cards-tittle">
+
+                <h5 id="location-cards-txt1">Athva</h5>
+                <p id="location-cards-txt2">120 Places</p>
+
+              </div>
+
+              <i class="fa-solid fa-chevron-right" id="link-icon"></i>
+
+            </div>
+
+          </a>
+
+        </div>
+
+        <div class="inside-location-cards">
+
+          <a href="#" class="location-cards-link">
+
+            <div class="location-card-panel">
+
+              <div class="location-cards-tittle">
+
+                <h5 id="location-cards-txt1">Nanpura</h5>
+                <p id="location-cards-txt2">45 Places</p>
+
+              </div>
+
+              <i class="fa-solid fa-chevron-right" id="link-icon"></i>
+
+            </div>
+
+          </a>
+
+        </div>
+
+        <div class="inside-location-cards">
+
+          <a href="#" class="location-cards-link">
+
+            <div class="location-card-panel">
+
+              <div class="location-cards-tittle">
+
+                <h5 id="location-cards-txt1">Dumas</h5>
+                <p id="location-cards-txt2">26 Places</p>
+
+              </div>
+
+              <i class="fa-solid fa-chevron-right" id="link-icon"></i>
+
+            </div>
+
+          </a>
+
+        </div>
+
+        <div class="inside-location-cards">
+
+          <a href="#" class="location-cards-link">
+
+            <div class="location-card-panel">
+
+              <div class="location-cards-tittle">
+
+                <h5 id="location-cards-txt1">Katargam</h5>
+                <p id="location-cards-txt2">200 Places</p>
+
+              </div>
+
+              <i class="fa-solid fa-chevron-right" id="link-icon"></i>
+
+            </div>
+
+          </a>
+
+        </div>
+
+        <div class="inside-location-cards">
+
+          <a href="#" class="location-cards-link">
+
+            <div class="location-card-panel">
+
+              <div class="location-cards-tittle">
+
+                <h5 id="location-cards-txt1">Vesu</h5>
+                <p id="location-cards-txt2">397 Places</p>
+
+              </div>
+
+              <i class="fa-solid fa-chevron-right" id="link-icon"></i>
+
+            </div>
+
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+  </div>     <!-- end of state-container -->
+
+  <div class="application-containar">
+
+    <div class="inside-application-containar">
+
+      <div class="inside-application-containar-div">
+
+        <div class="application-containar-div-1">
+
+          <div class="inside-application-containar-div-1">
+
+            <img src="../images/zomato-app.webp" id="zomato-app-img">
+
+          </div>
+
+        </div>
+
+        <div class="application-containar-div-2">
+
+          <h2 id="application-containar-div-2-heading">Get The Zomato App</h2>
+          <p id="application-containar-div-2-sub-head">we will send you a link, open it on your phone to download the app</p>
+
+          <div class="application-containar-radio-section">
+
+            <section class="radio-main-section">
+
+              <section class="radio-section">
+  
+                <label id="radio-section-label">
+  
+                  <input type="radio" value="Email" checked>
+                  <span id="radio-label">Email</span>
+  
+                </label>
+  
+              </section>
+
+              <section class="radio-section">
+  
+                <label id="radio-section-label">
+  
+                  <input type="radio" value="Phone" required>
+                  <span id="radio-label">Phone</span>
+  
+                </label>
+  
+              </section>
+  
+              </section>
+              
+            </section>  
+
+          </div>
+
+          <div class="application-containar-email-section">
+
+            <section class="inside-application-containar-email-section">
+
+              <section  class="email-section">
+
+                <input id="email-input" autocomplete="on" type="text">
+
+              </section>
+
+              <label id="email-label">Email</label>
+
+            </section>
+
+            <button class="share-link-button">
+
+              <span id="sal-button">Share App Link</span>
+
+            </button>
+
+          </div>
+
+          <p id="txt-app">Download app from</p>
+
+          <div class="app-image">
+
+            <a class="app-image-link">
+              <div class="android-app">
+
+                <img src="../images/google-storewebp.webp" id="app-img">
+
+              </div>
+            </a>
+
+            <div class="app-image">
+              <a class="app-image-link">
+
+                <div class="apple-app">
+
+                  <img src="../images/app-store.webp" id="app-img">
+
+                </div>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="explore-containar">
+
+    <div class="inside-explore-container">
+
+      <p id="explore-containar-heading">Explore options near me</p>
+
+      <div class="explore-containar-section">
+
+        <section class="inside-explore-containar-section">
+          
+          <p id="explore-containar-txt">Popular cuisines near me</p>
+          <i class="fa-solid fa-chevron-down" id="caret-icon-ec"></i>
+         
+        </section>
+
+        <section class="inside-explore-containar-section">
+          
+          <p id="explore-containar-txt">Popular esraurant types near me</p>
+          <i class="fa-solid fa-chevron-down" id="caret-icon-ec"></i>
+         
+        </section>
+
+        <section class="inside-explore-containar-section">
+          
+          <p id="explore-containar-txt">Popular Top restaurant Chains</p>
+          <i class="fa-solid fa-chevron-down" id="caret-icon-ec"></i>
+         
+        </section>
+
+        <section class="inside-explore-containar-section">
+          
+          <p id="explore-containar-txt">Cities We Deliver To</p>
+          <i class="fa-solid fa-chevron-down" id="caret-icon-ec"></i>
+         
+        </section>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="inside-footer">
+      <section class="first-section">
+        <img
+          src="../images/b40b97e677bc7b2ca77c58c61db266fe1603954218 (1).webp"
+          id="footer-zomato-logo"
+        />
+
+        <section class="second-section">
+          <div class="footer-box1">
+            <div class="inside-footer-box1">
+              <img src="../images/in.webp" id="footer-india-flag" />
+              <span id="footer-country-name">India</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+
+          <div class="footer-box2">
+            <div class="inside-footer-box2">
+              <img src="../images/world.svg" id="footer-world-img" />
+              <span id="footer-language-name">English</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <div class="footer-list">
+        <div class="inside-footer-list-1">
+          <h6 id="footer-list-header">About Zomato</h6>
+
+          <nav>
+            <a href="#">
+              <p id="footer-list-txt">Who We Are</p>
+            </a>
+
+            <a href="#">
+              <p id="footer-list-txt">Blog</p>
+            </a>
+
+            <a href="#">
+              <p id="footer-list-txt">Work With Us</p>
+            </a>
+
+            <a href="#">
+              <p id="footer-list-txt">Investor Relations</p>
+            </a>
+
+            <a href="#">
+              <p id="footer-list-txt">Report Fraud</p>
+            </a>
+
+            <a href="#">
+              <p id="footer-list-txt">Contact Us</p>
+            </a>
+          </nav>
+        </div>
+
+        <div class="inside-footer-list-2">
+          <h6 id="footer-list-header">ZOMAVERSE</h6>
+
+          <nav>
+            <a href="#">
+              <p id="footer-list-txt">Zomato</p>
+            </a>
+
+            <a href="#">
+              <p id="footer-list-txt">Blinkit</p>
+            </a>
+
+            <a href="#">
+              <p id="footer-list-txt">Feeding India</p>
+            </a>
+
+            <a href="#">
+              <p id="footer-list-txt">Hyperpure</p>
+            </a>
+
+            <a href="#">
+              <p id="footer-list-txt">Zomaland</p>
+            </a>
+
+          </nav>
+        </div>
+
+        <div class="inside-footer-list-3">
+          <h6 id="footer-list-header">FOR RESTAURANTS</h6>
+
+          <nav>
+            <a href="#">
+              <p id="footer-list-txt">Partner With Us</p>
+            </a>
+
+            <a href="#">
+              <p id="footer-list-txt">Apps For You</p>
+            </a>
+          </nav>
+
+          <br>
+
+          <h6 id="footer-list-header">FOR ENTERPRISES</h6>
+
+          <nav>
+            <a href="#">
+              <p id="footer-list-txt">Zomato For Enterprise</p>
+            </a>
+
+          </nav>
+        </div>
+
+        <div class="inside-footer-list-4">
+          <h6 id="footer-list-header">LEARN MORE</h6>
+
+          <nav>
+            <a href="#">
+              <p id="footer-list-txt">Privacy</p>
+            </a>
+
+            <a href="#">
+              <p id="footer-list-txt">Security</p>
+            </a>
+
+            <a href="#">
+              <p id="footer-list-txt">Terms</p>
+            </a>
+
+            <a href="#">
+              <p id="footer-list-txt">Sitemap</p>
+            </a>
+          </nav>
+        </div>
+
+        <div class="inside-footer-list-5">
+
+          <h6 id="footer-list-header">SOCIAL LINKS</h6>
+
+          <div class="social-media-icons">
+
+            <a href="#" target="_blank">
+              <div class="inside-social-media-icons">
+                <img src="../images/linkedin.svg" id="footer-icons" />
+              </div>
+            </a>
+
+            <a href="#" target="_blank">
+              <div class="inside-social-media-icons">
+                <img src="../images/instagram.svg" id="footer-icons" />
+              </div>
+            </a>
+
+            <a href="#" target="_blank">
+              <div class="inside-social-media-icons">
+                <img src="../images/twitter.svg" id="footer-icons" />
+              </div>
+            </a>
+
+            <a href="#" target="_blank">
+              <div class="inside-social-media-icons">
+                <img src="../images/youtube.svg" id="footer-icons" />
+              </div>
+            </a>
+
+            <a href="#" target="_blank">
+              <div class="inside-social-media-icons">
+                <img src="../images/facebook.svg" id="footer-icons" />
+              </div>
+            </a>
+          </div>
+
+          <section class="application-section">
+            <a target="_blank">
+              <div class="applications">
+                <img
+                  src="../images/app-store.webp"
+                  class="application-image"
+                />
+              </div>
+            </a>
+
+            <a target="_blank">
+              <div class="applications-2">
+                <img
+                  src="../images/google-storewebp.webp"
+                  class="application-image"
+                />
+              </div>
+            </a>
+          </section>
+        </div>
+        <!-- end of footer-list-5 -->
+      </div>
+      <!-- end of footer-list -->
+
+      <hr id="footer-hr" />
+
+      <p id="footer-txt-end">
+        By continuing past this page, you agree to our Terms of Service,
+        Cookie Policy, Privacy Policy and Content Policies. All trademarks are
+        properties of their respective owners. 2008-2023 © Zomato™ Ltd. All
+        rights reserved.
+      </p>
+    </div>
+
+  </footer>
+
+</body>
+</html>

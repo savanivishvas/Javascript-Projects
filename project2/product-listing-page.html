@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product listing page</title>
+    <script src="https://kit.fontawesome.com/a20fe8da99.js" crossorigin="anonymous"></script>
+    <script src="./product-listing-page.js"></script>
+    <link rel="stylesheet" href="product-listing-page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@500;600&family=Heebo:wght@300&family=Jost:wght@300;400;500&family=Miriam+Libre:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+
+        <div class="inside-header">
+
+           <nav class="navbar">
+
+               <img src="../images/zomato (2).webp" id="zomato-img">
+
+                <div class="zomato-search-bar">
+                 
+                   <div class="inside-zomato-search-bar">
+                   
+                      <div id="zomato-search-bar-left">
+                         
+                        <i class="fa-solid fa-location-dot" id="location-icon"></i>
+                        <input placeholder="Surat" id="search-input">
+                        <i class="fa-solid fa-caret-down" id="caret-icon"></i>
+          
+                      </div>
+          
+                      <div class="line-zomato"></div>
+          
+                      <div id="zomato-search-bar-right">
+          
+                        <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                        <input placeholder="Search for restaurant, cuisine or a dish" id="search-input-2">
+          
+                       </div>
+
+                    </div>
+                </div>
+
+                <div class="account-section">
+ 
+                    <a id="log-in-txt">Log in</a>
+                    <a id="sign-up-txt">Sign up</a>
+                
+                </div>
+            </nav>
+       </div>
+   </div>
+
+   <div class="path">
+
+        <div class="inside-path">
+    
+            <a id="path-txt">Home   /   india  /   surat  /   place </a>
+    
+        </div>
+
+   </div>
+
+   <div class="products-section">
+
+        <div class="products-containar">
+          
+            <div class="inside-products-containar">
+        
+                <div class="delivery-container">
+        
+                    <div class="inside-delivary-containar">
+        
+                        <div class="delivary-img-section">
+                            <img src="../images/Delivary.webp" id="img">
+                        </div>
+        
+                        <h2 id="delivery-txt">Delivary</h2>
+        
+                    </div>
+
+                    <hr id="tab-line">
+        
+                </div>
+        
+                <div class="dining-out-container">
+        
+                    <div class="inside-dining-out-containar">
+                        
+                        <div class="dining-out-img-section">
+                            <img src="../images/Dining-out.webp" id="img">
+                        </div>
+        
+                        <h2 id="dining-out-txt">Dining out</h2>
+
+                    </div>
+                  </div>
+
+               </div>
+           </div>
+      </div>
+   <div>
+
+    <div class="feature-section">
+
+        <div class="feature-containar">
+
+            <div class="inside-feature-containar">
+
+                <div class="fea-containar">
+
+                    <div class="inside-fea-containar">
+
+                        <img src="../images/filter.svg" id="filter-img">
+
+                        <p class="feature-txt">Filters</p>
+
+                    </div>
+
+                </div>
+
+                <div class="fea-containar">
+
+                    <div class="inside-fea-containar">
+                        
+                        <p class="feature-txt">Rating: 4.0+</p>
+
+                    </div>
+
+                </div>
+
+                <div class="fea-containar">
+
+                    <div class="inside-fea-containar" id="f3" onclick="displaydrop()">
+
+                        <p class="feature-txt">Cuisines</p>
+
+                        <i class="fa-solid fa-chevron-down" id="feature-caret" ></i>
+
+
+                        <div class="ic-dropdown">
+
+                            <div class="inside-ic-dropdown">
+
+                                <h1 id="c-txt">Cuisines</h1>
+
+                                <input placeholder="" >
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="first-order-section">
+
+        <div class="inside-first-order-section">
+
+            <h3 id="first-order-section-txt">Inspirations for your first order</h3>
+
+            <div class="inside-first-order-section-1">
+
+                <div class="inside-first-order-section-2">
+
+                    <div class="inside-first-order-section-3">
+
+                        <div class="inside-first-order-section-4">
+
+                            <section class="ifos-middle-part">
+
+                                <div class="ifos-mp-imag">
+
+                                    <img src="../images/Khamanwebp.webp" id="ifos-image">
+                                    
+                                </div>
+
+                                <p id="ifos-img-txt">Khaman</p>
+
+                            </section>
+
+                            <section class="ifos-middle-part">
+
+                                <div class="ifos-mp-imag">
+
+                                    <img src="../images/Thali.webp" id="ifos-image">
+
+                                </div>
+
+                                <p id="ifos-img-txt">Thali</p>
+
+                            </section>
+
+                            <section class="ifos-middle-part">
+
+                                <div class="ifos-mp-imag">
+
+                                    <img src="../images/Burger.webp" id="ifos-image">
+
+                                </div>
+
+                                <p id="ifos-img-txt">Burger</p>
+                                
+                            </section>
+
+                            <section class="ifos-middle-part">
+
+                                <div class="ifos-mp-imag">
+
+                                    <img src="../images/fafda.webp" id="ifos-image">
+
+                                </div>
+
+                                <p id="ifos-img-txt">Fifda</p>
+
+                            </section>
+
+                            <section class="ifos-middle-part">
+
+                                <div class="ifos-mp-imag">
+
+                                    <img src="../images/sandwich.webp" id="ifos-image">
+
+                                </div>
+
+                                <p id="ifos-img-txt">Sandwich</p>
+
+                            </section>
+
+                            <section class="ifos-middle-part">
+
+                                <div class="ifos-mp-imag">
+
+                                    <img src="../images/pizza.webp" id="ifos-image">
+
+                                </div>
+
+                                <p id="ifos-img-txt">Pizza</p>
+
+                            </section>
+
+                            <!-- <section class="ifos-middle-part">
+
+                                <div class="ifos-mp-imag">
+
+                                    <img src="../images/Idali.webp" id="ifos-image">
+
+                                </div>
+
+                                <p id="ifos-img-txt">Idali</p>
+
+                            </section> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="brands-section">
+
+        <h3 id="brand-txt">Top brands for you</h3>
+
+        <div class="inside-first-order-section-1">
+
+            <div class="inside-first-order-section-2">
+
+                <div class="inside-first-order-section-3">
+
+                    <div class="inside-first-order-section-4">
+
+                        <section class="ifos-middle-part">
+
+                            <div class="ifos-mp-imag">
+
+                                <img src="../images/Burger_King.webp" id="ifos-image">
+                                
+                            </div>
+
+                            <p id="ifos-img-txt">Burger King</p>
+                            <p id="ifos-order-txt">10 min</p>
+
+                        </section>
+
+                        <section class="ifos-middle-part">
+
+                            <div class="ifos-mp-imag">
+
+                                <img src="../images/McDonald.webp" id="ifos-image">
+
+                            </div>
+
+                            <p id="ifos-img-txt">McDonald's</p>
+                            <p id="ifos-order-txt">10 min</p>
+
+                        </section>
+
+                        <section class="ifos-middle-part">
+
+                            <div class="ifos-mp-imag">
+
+                                <img src="../images/Burger.webp" id="ifos-image">
+
+                            </div>
+
+                            <p id="ifos-img-txt">Burger</p>
+                            <p id="ifos-order-txt">10 min</p>
+                            
+                        </section>
+
+                        <section class="ifos-middle-part">
+
+                            <div class="ifos-mp-imag">
+
+                                <img src="../images/fafda.webp" id="ifos-image">
+
+                            </div>
+
+                            <p id="ifos-img-txt">Fifda</p>
+                            <p id="ifos-order-txt">10 min</p>
+
+                        </section>
+
+                        <section class="ifos-middle-part">
+
+                            <div class="ifos-mp-imag">
+
+                                <img src="../images/sandwich.webp" id="ifos-image">
+
+                            </div>
+
+                            <p id="ifos-img-txt">Sandwich</p>
+                            <p id="ifos-order-txt">10 min</p>
+
+                        </section>
+
+                        <section class="ifos-middle-part">
+
+                            <div class="ifos-mp-imag">
+
+                                <img src="../images/pizza.webp" id="ifos-image">
+
+                            </div>
+
+                            <p id="ifos-img-txt">Pizza</p>
+                            <p id="ifos-order-txt">10 min</p>
+
+                        </section>
+
+                        <section class="ifos-middle-part">
+
+                            <div class="ifos-mp-imag">
+
+                                <img src="../images/Idali.webp" id="ifos-image">
+
+                            </div>
+
+                            <p id="ifos-img-txt">Idali</p>
+
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="restaurant-txt-containar">
+
+        <h1 id="rtc">Delivery Restaurants in india</h1>
+
+    </div>
+
+    <div class="restaurant-containar">
+
+    </div>
+
+    
+
+
+
+    
+</body>
+</html>
