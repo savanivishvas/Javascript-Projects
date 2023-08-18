@@ -1,10 +1,14 @@
-[
-    {
-        "id":1,
-        "name":"Vishvas"
-    },
-    {
-        "id":2,
-        "name":"meet"
-    }
-]
+{
+    "products" : [
+        {
+            "id":1,
+            "discount" : "50% OFF up to 100",
+            "image" : "https://b.zmtcdn.com/data/pictures/chains/0/18975500/33b881284a31f63a85aa7652a791cf08_o2_featured_v2.jpg",
+            "rating" : 4.3,
+            "sub-name" : "Gujrati",
+            "delivery-time" : "23 min",
+            "restaurant-name" : "Jani Locho & Khaman House",
+            "safety" : "Follow all Max Safety measures to ensure your food is safe"
+        }
+    ]
+}
