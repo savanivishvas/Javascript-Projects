@@ -1,35 +1,36 @@
-[
-    {
-        "id":1,
-        "rating" : 4.3,
-        "sub-name" : "Gujrati",
-        "price" : "100 for one",
-        "delivery-time" : "23 min",
-        "discount" : "50% OFF up to 100",
-        "restaurant-name" : "Jani Locho & Khaman House",
-        "safety" : "Follow all Max Safety measures to ensure your food is safe",
-        "image" : "https://b.zmtcdn.com/data/pictures/chains/0/18975500/33b881284a31f63a85aa7652a791cf08_o2_featured_v2.jpg"
-    },
-    {
-        "id":2,
-        "rating" : 4.2,
-        "sub-name" : "North Indian, Chinese, Guj...",
-        "price" : "100 for one",
-        "delivery-time" : "24 min",
-        "discount" : "50% OFF up to 100",
-        "restaurant-name" : "Radhe Dhokla",
-        "safety" : "Restaurant partner follows WHO protocol"  , 
-        "image" : "https://b.zmtcdn.com/data/pictures/chains/6/18569536/c02f2449f265c2b66ae4d101992814b6_o2_featured_v2.jpg"
-    },
-    {
-        "id":3,
-        "rating" : 4.2,
-        "sub-name" : "Ice Cream , Desserts",
-        "price" : "100 for one",
-        "delivery-time" : "19 min",
-        "discount" : "50% OFF up to 100",
-        "restaurant-name" : "Kwality Walls Frozen Desserts ...",
-        "image" : "https://b.zmtcdn.com/data/pictures/chains/5/19144815/b9b29b795e228bebbd5de24c4b4ee8c8_o2_featured_v2.jpg"
-    }
-
-]
+{
+    "products" : [
+        {
+            "id":1,
+            "rating" : 4.3,
+            "sub-name" : "Gujrati",
+            "price" : "100 for one",
+            "delivery-time" : "23 min",
+            "discount" : "50% OFF up to 100",
+            "restaurant-name" : "Jani Locho & Khaman House",
+            "safety" : "Follow all Max Safety measures to ensure your food is safe",
+            "image" : "https://b.zmtcdn.com/data/pictures/chains/0/18975500/33b881284a31f63a85aa7652a791cf08_o2_featured_v2.jpg"
+        },
+        {
+            "id":2,
+            "rating" : 4.2,
+            "sub-name" : "North Indian, Chinese, Guj...",
+            "price" : "100 for one",
+            "delivery-time" : "24 min",
+            "discount" : "50% OFF up to 100",
+            "restaurant-name" : "Radhe Dhokla",
+            "safety" : "Restaurant partner follows WHO protocol"  , 
+            "image" : "https://b.zmtcdn.com/data/pictures/chains/6/18569536/c02f2449f265c2b66ae4d101992814b6_o2_featured_v2.jpg"
+        },
+        {
+            "id":3,
+            "rating" : 4.2,
+            "sub-name" : "Ice Cream , Desserts",
+            "price" : "100 for one",
+            "delivery-time" : "19 min",
+            "discount" : "50% OFF up to 100",
+            "restaurant-name" : "Kwality Walls Frozen Desserts ...",
+            "image" : "https://b.zmtcdn.com/data/pictures/chains/5/19144815/b9b29b795e228bebbd5de24c4b4ee8c8_o2_featured_v2.jpg"
+        }
+    ]
+}
