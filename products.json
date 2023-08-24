@@ -4,33 +4,43 @@
             "id":1,
             "rating" : 4.3,
             "sub-name" : "Gujrati",
-            "price" : "100 for one",
-            "delivery-time" : "23 min",
-            "discount" : "50% OFF up to 100",
+            "price" : "₹150 for one",
+            "delivery-time" : "24 min",
             "restaurant-name" : "Jani Locho & Khaman House",
             "safety" : "Follow all Max Safety measures to ensure your food is safe",
-            "image" : "https://b.zmtcdn.com/data/pictures/chains/0/18975500/33b881284a31f63a85aa7652a791cf08_o2_featured_v2.jpg"
+            "image" : "https://b.zmtcdn.com/data/dish_photos/167/5a6aae0d7c0d7609eb8a63f71dada167.jpg?output-format=webp"
         },
         {
             "id":2,
             "rating" : 4.2,
             "sub-name" : "North Indian, Chinese, Guj...",
-            "price" : "100 for one",
-            "delivery-time" : "24 min",
-            "discount" : "50% OFF up to 100",
+            "price" : "₹150 for one",
+            "delivery-time" : "26 min",
+            "discount" : "₹125 OFF",
             "restaurant-name" : "Radhe Dhokla",
             "safety" : "Restaurant partner follows WHO protocol"  , 
-            "image" : "https://b.zmtcdn.com/data/pictures/chains/6/18569536/c02f2449f265c2b66ae4d101992814b6_o2_featured_v2.jpg"
+            "image" : "https://b.zmtcdn.com/data/dish_photos/ed3/03dd363a8e264f744cad4adc14f98ed3.jpg?output-format=webp"
         },
         {
             "id":3,
-            "rating" : 4.2,
-            "sub-name" : "Ice Cream , Desserts",
-            "price" : "100 for one",
+            "rating" : 3.7,
+            "sub-name" : "Pizza, Italian, Pasta, Fast F ...",
+            "price" : "₹100 for one",
             "delivery-time" : "19 min",
-            "discount" : "50% OFF up to 100",
-            "restaurant-name" : "Kwality Walls Frozen Desserts ...",
-            "image" : "https://b.zmtcdn.com/data/pictures/chains/5/19144815/b9b29b795e228bebbd5de24c4b4ee8c8_o2_featured_v2.jpg"
+            "discount" : "₹125 OFF",
+            "restaurant-name" : "La Pino'z Pizza",
+            "image" : "https://b.zmtcdn.com/data/pictures/chains/5/18575885/54b6de34323395a3b10897e48bd2a6e5_o2_featured_v2.jpg?output-format=webp"
+        },
+        {
+            "id":4,
+            "rating" : 3.1,
+            "sub-name" : "North Indian, Chinese, Biry ...",
+            "price" : "₹200 for one",
+            "delivery-time" : "38 min",
+            "discount" : "₹200 OFF",
+            "restaurant-name" : "Everything @ 99",
+            "image" : "https://b.zmtcdn.com/data/pictures/8/19332738/5e911fe465e952d74b28cfb959768ec6_o2_featured_v2.jpg?output-format=webp"
         }
+
     ]
 }
