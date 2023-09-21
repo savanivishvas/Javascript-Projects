@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Jost:wght@300&display=swap');
 
-
-/* 
-http://localhost:3000/posts
-http://localhost:3000/comments
-http://localhost:3000/profile */
-
 *{
     margin: 0px;
     padding: 0px;
@@ -180,12 +174,8 @@ http://localhost:3000/profile */
     height: 240px;
     border-radius: 12px;
     max-width: 33.3333%;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
     padding: 0px 13.3333px 20px 0px;
-}
-
-.cards-1:hover{
-    transform: scale(1.0600);
-    /* transition: 0.3s ease; */
 }
 
 .inside-cards{
@@ -245,11 +235,8 @@ http://localhost:3000/profile */
     height: 240px;
     border-radius: 12px;
     max-width: 33.3333%;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
     padding: 0px 6.66667px 20px 6.66667px;
-}
-
-.cards-2:hover{
-    transform: scale(1.0600);
 }
 
 .inside-cards-2{
@@ -308,11 +295,8 @@ http://localhost:3000/profile */
     height: 240px;
     border-radius: 12px;
     max-width: 33.3333%;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
     padding: 0px 6.66667px 20px 6.66667px;
-}
-
-.cards-3:hover{
-    transform: scale(1.0600);
 }
 
 .inside-cards-3{
