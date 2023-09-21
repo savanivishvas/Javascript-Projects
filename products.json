@@ -30,17 +30,6 @@
             "discount" : "₹125 OFF",
             "restaurant-name" : "La Pino'z Pizza",
             "image" : "https://b.zmtcdn.com/data/pictures/chains/5/18575885/54b6de34323395a3b10897e48bd2a6e5_o2_featured_v2.jpg?output-format=webp"
-        },
-        {
-            "id":4,
-            "rating" : 3.1,
-            "sub-name" : "North Indian, Chinese, Biry ...",
-            "price" : "₹200 for one",
-            "delivery-time" : "38 min",
-            "discount" : "₹200 OFF",
-            "restaurant-name" : "Everything @ 99",
-            "safety" : "Restaurant partner follows WHO protocol" , 
-            "image" : "https://b.zmtcdn.com/data/pictures/8/19332738/5e911fe465e952d74b28cfb959768ec6_o2_featured_v2.jpg?output-format=webp"
         }
     ]
 }
