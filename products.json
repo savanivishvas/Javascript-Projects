@@ -41,17 +41,6 @@
             "restaurant-name" : "Everything @ 99",
             "safety" : "Restaurant partner follows WHO protocol" , 
             "image" : "https://b.zmtcdn.com/data/pictures/8/19332738/5e911fe465e952d74b28cfb959768ec6_o2_featured_v2.jpg?output-format=webp"
-        },
-        {
-            "id":4,
-            "rating" : 3.8,
-            "sub-name" : "North Indian, Chinese",
-            "price" : "₹200 for one",
-            "delivery-time" : "28 min",
-            "discount" : "₹40 OFF",
-            "restaurant-name" : "Panjabi Di Hatti",
-            "image" : "https://b.zmtcdn.com/data/pictures/chains/0/3800900/745a347720104d602ecf20ee1511f264_o2_featured_v2.jpg?output-format=webp"
         }
-
     ]
 }
