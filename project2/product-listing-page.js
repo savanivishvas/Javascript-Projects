@@ -1,38 +1,32 @@
 const irc = document.querySelector(".inside-restaurant-containar");
 
 const getData = async () => {
-
     const url = "https://savanivishvas.github.io/Javascript-Projects/products.json";
 
     const response = await fetch(url);
     const data = await response.json();
 
-    console.log(data);
-
-
-    data.products.map((CurrElement) =>{
-
+    data.products.map((CurrElement) => {
         const htmldata = `
-
             <div class="box">
 
                 <div class="inside-box">
 
                     <div class="ib-d1">
-
                         <img src="${CurrElement.image}" class="r-img">
-
-                        <p class="discount-txt">${CurrElement.discount}</p>
-
+                        ${CurrElement.discount !== undefined ? 
+                        `<p class="discount-txt">${CurrElement.discount}</p> ` : ''}
                     </div>
 
                     <div class="ib-d2">
+
                         <p class="r-txt">${CurrElement['restaurant-name']}</p>
-                        
-                       <div class="rt-box">
-                           <p class="rating">${CurrElement.rating}</p>
-                           <img src="../images/star.svg" class="s-img">
+
+                        <div class="rt-box">
+                            <p class="rating">${CurrElement.rating}</p>
+                            <img src="../images/star.svg" class="s-img">
                         </div>
+
                     </div>
 
                     <div class="ib-d3">
@@ -40,30 +34,32 @@ const getData = async () => {
                         <p class="price">${CurrElement.price}</p>
                     </div>
 
-
                     <div class="ib-d4">
-                         <p class="time">${CurrElement['delivery-time']}</p>
-                         <hr class="line">
+
+                        <p class="time">${CurrElement['delivery-time']}</p>
+
                     </div>
+                        ${CurrElement.safety !== undefined ? `
+                        <hr class="line">
 
-                    <div class="ib-d5">
+                        <div class="ib-d5">
 
-                    <img src="/images/695598f38d29d0e5d3f8ffe57cfdb94c1613145422.webp" class="safety-img"> 
-                        <p class="safety-txt">${CurrElement.safety}</p>  
-                        
-                    </div>
+                            <img src="../images/695598f38d29d0e5d3f8ffe57cfdb94c1613145422.webp" class="safety-img"> 
+                            <p class="safety-txt">${CurrElement.safety}</p>
 
+                        </div>` : ''}
                 </div>
-                
-        
 
-        </div>
+            </div>
         `;
 
-        irc.insertAdjacentHTML('beforeend',htmldata);
-    })
+        irc.insertAdjacentHTML('beforeend', htmldata);
+    });
 }
 
 getData();
+
+//  ------------------------   [ filter and sort ] -------------------------------------
+
 
 

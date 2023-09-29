@@ -15,12 +15,10 @@
 
 .inside-header{
     width: 100%;
-    top: 0px;
     height: 72px;
     max-width: 100%;
-    display: block;
-    position: static;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
     align-items: center;
     transition: opacity 0.25s linear 0s, height 0.56s cubic-bezier(0.52, 0.16, 0.24, 1) 0s;
     background-color: transparent;
@@ -28,13 +26,12 @@
 
 .navbar{
     width: 100%;
-    max-width: 1100px;
+    max-width: 65rem;
     padding-right: 0px;
     margin: 0px auto;
     display: flex;
-    flex-wrap: nowrap;
     height: 100%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: relative;
 }
@@ -45,7 +42,7 @@
 }
 
 .zomato-search-bar{
-    margin-left: 10px;
+    margin-left: 40px;
     display: flex;
 }
 
@@ -54,20 +51,17 @@
     align-items: center;
     height: 54px;
     background: rgb(255, 255, 255);
-    border-radius: 0.8rem;
+    border-radius: 8px;
     box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
     border: 1px solid rgb(232, 232, 232);
 }
 
 .zomato-search-bar-left{
     display: flex;
-    justify-content: space-around;
-    position: relative;
-    height: 100%;
-    width: 240px;
-    border-radius: 8px;
     padding: 0px 10px;
     align-items: center;
+    border-radius: 0.8rem;
+    justify-content: space-between;
 }
 
 #location-icon{
@@ -80,6 +74,7 @@
     margin: 0px 10px 0px 5px;
     outline: none;
     border: none;
+    max-width: 8rem;
     font-weight: 300;
     font-family: 'Heebo',sans-serif;
 }
@@ -98,10 +93,7 @@
     border: 1.5px solid rgb(207, 207, 207);
 }
 
-.zomato-search-bar-left{
-    border-radius: 0.8rem;
-    width: 53px;
-    height: 100%;
+.zomato-search-bar-right{
     display: flex;
 }
 
@@ -121,10 +113,10 @@
 }
 
 .account-section{
-    margin-left: 80px;
     display: flex;
+    margin-left: 20px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #log-in-txt{
@@ -161,7 +153,7 @@
 }
 
 .path{
-    width: 1100px;
+    width: 65rem;
     position: relative;
     margin: 0px auto;
 }
@@ -192,7 +184,7 @@
     top: 0px;
     background-color: rgb(255, 255, 255);
     position: relative;
-    max-width: 1100px;
+    max-width: 65rem;
     max-height: initial;
     margin: 0px auto;
     box-shadow: rgb(232, 232, 232) 0px -0.5px 0px inset;
@@ -302,7 +294,7 @@
 
 .feature-containar{
     position: relative;
-    max-width: 1100px;
+    max-width: 65rem;
     max-height: initial;
     margin: 0px auto;
 }
@@ -392,7 +384,7 @@
 
 .inside-first-order-section{
     position: relative;
-    max-width: 1100px;
+    max-width: 65rem;
     max-height: initial;
     margin: 0px auto;
 }
@@ -427,7 +419,7 @@
     display: flex;
     position: relative;
     overflow: hidden;
-    width: 1300px;
+    width: 65rem;
     transform: translateX(0px);
     transition: transform 0.45s ease-in-out 0s;
 }
@@ -435,7 +427,7 @@
 .ifos-middle-part{
     height: auto;
     width: 160px;
-    margin-right: 50px;
+    margin-right: 40px;
     position: relative;
     cursor: pointer;
     display: flex;
@@ -446,15 +438,15 @@
     border-radius: 50%;
     flex-shrink: 0;
     cursor: pointer;
-    height: 150px;
-    width: 150px;
+    height: 140px;
+    width: 140px;
     position: relative;
     max-width: 100%;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 12px;
 }
 
-#ifos-image{
+.ifos-image{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -485,11 +477,46 @@
     font-family: 'Heebo',sans-serif;
 }
 
+.left{
+    height: 34px;
+    width: 34px;
+    left: 0px;
+    z-index: 2;
+    top: 3rem;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border: 4px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+    cursor: pointer; 
+}
+
+
+.right{
+    right: 0px;
+    position: absolute;
+    height: 34px;
+    width: 34px;
+    z-index: 2;
+    top: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border: 4px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+    cursor: pointer; 
+}
+
 /* brands-section */
 
 .brands-section{
     position: relative;
-    max-width: 1100px;
+    max-width: 65rem;
     max-height: initial;
     margin: 0px auto;
 }
@@ -506,7 +533,7 @@
 /* -------------------------------- [ restaurant-containar ] -------------------------------*/
 
 .restaurant-txt-containar{
-    width: 1100px;
+    width: 65rem;
     position: relative;
     margin: 0px auto;
 }
@@ -533,10 +560,9 @@
 }
 
 .box{
-    width: 340px;
+    width: 330px;
     margin: 10px auto 36px 10px;
     cursor: pointer;
-    transition: 5s;
 }
 
 .inside-box{
@@ -691,11 +717,10 @@
 .safety-txt{
     text-align: left;
     overflow: hidden;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 12px;
-    font-family: 'Heebo',sans-serif;
+    font-family: Okra, Helvetica, sans-serif;
     line-height: 17px;
-    text-overflow: ellipsis;
     margin: 0px 0px 0px 10px;
     color: #828282;
 }
